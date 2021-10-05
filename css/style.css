@@ -76,12 +76,14 @@ main{
 .main-title{
     top: 50%;
     font-size: 70px;
+    margin-bottom: 50px;
 }
 .social-medias{
 display: flex;
 justify-content: space-around;
-margin-top: 50px;
-width: 50%;
+width: 28%;
+align-items: center;
+margin-top: 20px;
 }
 .fab, .far {
     font-weight: 400;
@@ -164,12 +166,30 @@ footer{
     .social-medias{
         display: flex;
         justify-content: space-around;
-        margin-top: 30px;
+        margin-top: 10px;
         width: 50%;
     }
 
     .fab, .far {
         font-weight: 400;
         font-size: 32px;
+    }
+
+    .footer-display h2 {
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+    .footer-display address {
+        font-weight: 200;
+        font-style: normal;
+        font-size: 12px;
+    }
+    
+    .footer-display a {
+        font-weight: 200;
+        font-style: normal;
+        font-size: 12px;
     }
 }
