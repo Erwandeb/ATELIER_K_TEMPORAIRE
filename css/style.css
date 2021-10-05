@@ -124,9 +124,7 @@ footer{
 
 @media screen and (max-width:1024px){
     main{
-
         top: 45%;
-     
     }
    
     .main-title{
@@ -148,10 +146,15 @@ footer{
 
 
 @media screen and (max-width:426px){
+    
+    h1{
+        font-size: 18px;
+    }
+    .h1-fine{
+        font-size: 18px;
+    }
     main{
-
         top: 45%;
-     
     }
    
     .main-title{
