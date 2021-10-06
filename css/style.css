@@ -12,19 +12,6 @@ body{
     width: 100%;
 }
 
-.bg-image{
-    background-image: linear-gradient(rgb(204, 204, 204), white), url(../medias/atelier-k-architecture-morbihan.jpg) ;
-    background-blend-mode: soft-light;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    height: 100%;
-    width: 100%;
-    filter: blur(3px);
-    z-index: -10;
-    position: relative;
-}
-
 /* Header */
 
 
@@ -81,7 +68,7 @@ main{
 .social-medias{
 display: flex;
 justify-content: space-around;
-width: 28%;
+width: 18%;
 align-items: center;
 margin-top: 20px;
 }
@@ -124,6 +111,13 @@ footer{
     font-style: normal;
 }
 
+
+.inscription-order{
+    font-weight: 200;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 10px; 
+}
 @media screen and (max-width:1024px){
     main{
         top: 45%;
@@ -131,18 +125,44 @@ footer{
    
     .main-title{
         font-size: 24px;
+        margin-bottom: 15px;
     }
 
     .social-medias{
         display: flex;
         justify-content: space-around;
-        margin-top: 30px;
+        margin-top: 15px;
         width: 50%;
     }
 
     .fab, .far {
         font-weight: 400;
         font-size: 32px;
+    }
+
+    .footer-display h2 {
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .footer-display address {
+        font-weight: 200;
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    .footer-display a {
+        font-weight: 200;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    .inscription-order{
+        font-weight: 200;
+        font-style: italic;
+        font-size: 12px;
+        margin-top: 10px; 
     }
 }
 
@@ -161,13 +181,17 @@ footer{
    
     .main-title{
         font-size: 24px;
+        margin-bottom: 15px;
     }
 
+    .more-info{
+        font-size: 12px;
+    }
     .social-medias{
         display: flex;
         justify-content: space-around;
         margin-top: 10px;
-        width: 50%;
+        width: 33%;
     }
 
     .fab, .far {
@@ -178,7 +202,7 @@ footer{
     .footer-display h2 {
         margin-bottom: 15px;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .footer-display address {
@@ -191,5 +215,12 @@ footer{
         font-weight: 200;
         font-style: normal;
         font-size: 12px;
+    }
+
+    .inscription-order{
+        font-weight: 200;
+        font-style: italic;
+        font-size: 10px;
+        margin-top: 10px; 
     }
 }
